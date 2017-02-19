@@ -1,0 +1,32 @@
+{
+  "name": "patrickschur/neural-network",
+  "type": "library",
+  "description": "A dead simple neural network. For educational purposes only.",
+  "keywords": ["neural-network", "machine-learning", "deep-learning"],
+  "homepage": "https://github.com/patrickschur/neural-network",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Patrick Schur",
+      "email": "patrick_schur@outlook.de"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "NeuralNetwork\\": "src/NeuralNetwork"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "NeuralNetwork\\Tests\\": "tests"
+    }
+  },
+  "require": {
+    "php": "^7"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0"
+  }
+}
