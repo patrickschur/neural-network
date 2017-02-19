@@ -42,6 +42,7 @@ $nn->createFullMesh(0, 0, 0, 0);
  
 echo $o1->getValue(); // Output 0
 ```
+![Screenshot](screenshots/singlelayer.png)
 
 ## Contribute
 Feel free to contribute. Any help is welcome.
