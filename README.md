@@ -35,7 +35,7 @@ $i3->setValue(3);
 $i4->setValue(4);
  
 // Creates the output neuron
-$o1 = $nn->createNewOutput();
+$o1 = $nn->createNewOutput(new Identity());
  
 // Sets the weights and connect each input to the output neuron
 $nn->createFullMesh(0, 0, 0, 0);

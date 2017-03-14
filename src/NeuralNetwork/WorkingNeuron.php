@@ -23,9 +23,9 @@ class WorkingNeuron extends Neuron
      */
     private $activationFunction;
 
-    public function __construct()
+    public function __construct(ActivationFunction $activationFunction)
     {
-        $this->activationFunction = new ActivationFunctions\Identity();
+        $this->activationFunction = $activationFunction;
     }
 
     /**

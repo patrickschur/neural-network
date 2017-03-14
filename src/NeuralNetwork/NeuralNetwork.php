@@ -4,6 +4,8 @@ declare(strict_types = 1);
 
 namespace NeuralNetwork;
 
+use NeuralNetwork\ActivationFunctions\ActivationFunction;
+
 /**
  * Class NeuralNetwork
  *
@@ -22,11 +24,12 @@ class NeuralNetwork
     private $outputNeurons = [];
 
     /**
+     * @param ActivationFunction $activationFunction
      * @return WorkingNeuron
      */
-    public function createNewOutput(): WorkingNeuron
+    public function createNewOutput(ActivationFunction $activationFunction): WorkingNeuron
     {
-        return $this->outputNeurons[] = new WorkingNeuron();
+        return $this->outputNeurons[] = new WorkingNeuron($activationFunction);
     }
 
     /**
