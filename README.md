@@ -2,7 +2,6 @@
 [![Build Status](https://travis-ci.org/patrickschur/neural-network.svg?branch=master)](https://travis-ci.org/patrickschur/neural-network)
 [![codecov](https://codecov.io/gh/patrickschur/neural-network/branch/master/graph/badge.svg)](https://codecov.io/gh/patrickschur/neural-network)
 [![Version](https://img.shields.io/packagist/v/patrickschur/neural-network.svg?style=flat-plastic)](https://packagist.org/packages/patrickschur/neural-network)
-[![Maintenance](https://img.shields.io/maintenance/yes/2017.svg?style=flat-plastic)](https://github.com/patrickschur/neural-network)
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207.0-ee4499.svg?style=flat-plastic)](http://php.net/)
 [![License](https://img.shields.io/packagist/l/patrickschur/neural-network.svg?style=flat-plastic)](https://opensource.org/licenses/MIT)
 
